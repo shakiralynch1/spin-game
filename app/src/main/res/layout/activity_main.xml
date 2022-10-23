@@ -37,10 +37,10 @@
         android:layout_marginTop="272dp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.686"
+        app:layout_constraintVertical_bias="0.047"
         app:srcCompat="@drawable/dragon" />
 
     <ImageView
@@ -62,7 +62,7 @@
         android:text="PLAY"
         app:layout_constraintTop_toBottomOf="parent"
         tools:layout_editor_absoluteX="107dp"
-/>
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
@@ -78,7 +78,7 @@
         app:layout_constraintVertical_bias="0.765" />
 
     <Button
-        android:id="@+id/button_click"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="statistics"
